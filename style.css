@@ -1,0 +1,82 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the navbar */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: right;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+       background-color: aqua;
+}
+
+/* Styling for tables */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#table tr:hover {background-color: #ddd;}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+tabel, th, td:hover{
+           background-color: khaki;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/* flexboxcss */
+.clubs-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 5px;
+}
+
+.clubs-container > div{
+    flex: 1 1 20px; 
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: blue;
+}
+
+.clubs-container > div:hover {
+    background-color: white;
+}
+
